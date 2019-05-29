@@ -25,10 +25,14 @@ body {
 	color: #FFFFFF;	
 	background-image: url(logo3.png);
 }
+
+.addidas .army .multi .elephant .fansy {
+	width: 90px;
+	height: 90px;
+}
 .addidas{ 
 	border: 5px solid red;
-	width: 90px
-	height:90px;
+	background:-webkit-linear-gradient(blue,yellow,green,pink,white);
 }
 .army{ 
 	border: 5px solid blue;
@@ -39,6 +43,7 @@ body {
 	border: 5px solid red;
 	width: 90px
 	height:90px;
+	background:-webkit-linear-gradient(red 20%,green 80%, green 80%, blue 80%);
 }
 .elephant{ 
 	border: 5px solid blue;
@@ -49,11 +54,13 @@ body {
 	border: 5px solid red;
 	width: 90px
 	height:90px;
+	background: -webkit-radial-gradient(circle,green 10%,yellow 15%,blue 50%);
 }
 .fansy{ 
 	border: 5px solid blue;
 	width: 90px
 	height:90px;
+	background: -webkit-radial-gradient(circle,black 20px,red 70px);
 }
 .flowerish{ 
 	border: 5px solid red;
