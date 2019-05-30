@@ -1,99 +1,61 @@
 body {
 	height: 100%;
-	color: #C71585;
-	font-family: "Arial"
+	width: 100%;
+	color: black;
+	font-size: 1em;
+	font-family: sans-serif;
+	background:-webkit-linear-gradient(gray,pink,gray,pink,white);
+	opacity: 50px;
+
+}
+img {
+	width: 100px;
+	height: 100px;
+}
+td {
+	padding: 20px 20px;
 }
 .logo{
-	background-color: #B8860B; 
-	color:#330000;
+	background-image: url(logo3.png); 
 	padding: 05px;
-	font-size: 25px;
+	font-size: 30px;
 	font-weight: bolder;
 	letter-spacing: 4px;
 	height: 150px;
+	border-radius: 50px;
+	font-size: 2.6em;
 
 }
-.info p{
-	background-color: #ffb3cb;
-	color: black;
-	font-weight: bold;
-	padding: 05px;
-	font-family: Times New Roman;
-	font-size: 20px;
-	}
+span {
+	color: #ea0445;
+}
 .menu-bar {
-	color: #FFFFFF;	
-	background-image: url(logo3.png);
-}
-
-.addidas .army .multi .elephant .fansy {
-	width: 90px;
-	height: 90px;
-}
-.addidas{ 
-	border: 5px solid red;
-	background:-webkit-linear-gradient(blue,yellow,green,pink,white);
-}
-.army{ 
-	border: 5px solid blue;
-	width: 90px
-	height:90px;
-}
-.multi{ 
-	border: 5px solid red;
-	width: 90px
-	height:90px;
-	background:-webkit-linear-gradient(red 20%,green 80%, green 80%, blue 80%);
-}
-.elephant{ 
-	border: 5px solid blue;
-	width: 90px
-	height:90px;
-}
-.longsleeve{ 
-	border: 5px solid red;
-	width: 90px
-	height:90px;
-	background: -webkit-radial-gradient(circle,green 10%,yellow 15%,blue 50%);
-}
-.fansy{ 
-	border: 5px solid blue;
-	width: 90px
-	height:90px;
-	background: -webkit-radial-gradient(circle,black 20px,red 70px);
-}
-.flowerish{ 
-	border: 5px solid red;
-	width: 90px
-	height:90px;
-}
-.gucci{ 
-	border: 5px solid blue;
-	width: 90px
-	height:90px;
-}
-.guess{ 
-	border: 5px solid red;
-	width: 90px
-	height:90px;
-}
-.elegant{ 
-	border: 5px solid blue;
-	width: 90px
-	height:90px;
+	color: black;
+	height: 50px;
+	padding-top: 30px;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
 }
-li a {
-  display: block;
+ li {
+  display: inline;
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
+}
+.info p{
+	background-color: #8e0857;
+	height: 100px;
+	color: black;
+	font-weight: bold;
+	padding-top: 25px;
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
+	font-size: 20px;
+	border-radius: 20px;
+	background:-webkit-linear-gradient(gray 5%,green 80%, green 80%, brown 80%);
 }
 li a.active {
   background-color: #9ACD32;
@@ -105,8 +67,15 @@ li a:hover:not(.active) {
 }
 h3{
 	font-variant: small-caps;
-	color: red;
+	color: blue;
 	font-size: 20px;
+}
+h4 {
+	font-size: 15px;
+	color: #11000a;
+}
+td p {
+	color: #000500;
 }
 .footer{
 	background:   #bfbfbf;

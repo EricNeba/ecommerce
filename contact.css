@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+form {
+	background: fff;
+	opacity: .7;
+	position: absolute;
+	top:15%;
+	left: 32%;
+	border: 5px solid grey;
+	box-shadow: 5px 10px 20px #000;
+	margin: 19px;
+	padding: 10px 20px;
+}
+form input {
+	width: 400px;
+	margin: 20px;
+	color: #aaa;
+	height: 30px;
+	font-size: 15px;
+	border: 2px solid #aaa;
+}
+form textarea {
+	width: 400px;
+	margin: 10px;
+	color: #aaa;
+	border: 2px solid #aaa;
+	height: 100px;
+	font-size: 15px;
+}
+form h1 {
+	text-align: center;
+	font-weight: bold;
+}
+form input[type="submit"] {
+	color: #fff;
+	margin-bottom: 20px;
+	background: #ed072d;
+	border: none;
+	font-weight: bold;
+	font-size: 17px;
+	cursor: pointer;
+}
